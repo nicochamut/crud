@@ -46,12 +46,12 @@ const UserTable = ({ users, deleteUser, editRow }) => {
 const UserST = styled.div`
   display: flex;
   flex-direction: column;
-  background: #caccc1;
+
   width: 70vh;
   height: 60vh;
   margin: 5rem;
-  background: linear-gradient(45deg, #082a33, #b7687e);
-  box-shadow: 8px 10px 20px #070607, -8px 20px 30px #2d142c8d;
+  border: 1px solid grey;
+  box-shadow: 8px 10px 20px #070607;
   overflow: scroll;
   ::-webkit-scrollbar {
     width: 0.3rem;

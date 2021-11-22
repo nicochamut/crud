@@ -55,8 +55,9 @@ const EditUserForm = (props) => {
 };
 
 const EditUser = styled(User)`
-  background: #caccc1;
-  color: black;
+  border: 1px solid grey;
+  border-radius: 0;
+  color: white;
   @media screen and (max-width: 500px) {
     height: 28rem;
   }

@@ -10,11 +10,8 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    background: #2b2b2b;
+    background: #1a1a1a;
     flex-direction: column;
-    //MEDIAQUERY
-    @media screen and (max-width: 500px) {
-       background: #5e5b5b;
-    }
+    
 }
 `;

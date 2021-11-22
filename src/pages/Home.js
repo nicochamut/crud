@@ -66,7 +66,6 @@ const HomeStyl = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
   @media screen and (max-width: 1000px) {
     flex-direction: column;
   }

@@ -5,8 +5,8 @@ export const User = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: linear-gradient(45deg, #082a33, #b7687e);
-  box-shadow: 8px 10px 20px #070607, -8px 20px 30px #2d142c8d;
+  border: 1px solid grey;
+  box-shadow: 8px 10px 20px #070607;
   width: 65vh;
   height: 60vh;
   margin: 5rem;
@@ -28,6 +28,9 @@ export const User = styled.div`
     font-family: "Times New Roman", Times, serif;
     font-size: 1rem;
     padding: 5px;
+    background: none;
+    border: 1px solid grey;
+    color: white;
   }
   @media screen and (max-width: 500px) {
     width: 28rem;
@@ -42,7 +45,8 @@ export const Buttons = styled.div`
   button {
     margin: 5px;
     border-radius: 1rem;
-    background: #082a33;
+    border: 1px solid grey;
+    background: transparent;
     color: white;
     height: 2rem;
     width: 7rem;
