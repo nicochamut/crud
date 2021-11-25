@@ -46,7 +46,7 @@ const UserTable = ({ users, deleteUser, editRow }) => {
 const UserST = styled.div`
   display: flex;
   flex-direction: column;
-
+  align-items: center;
   width: 70vh;
   height: 60vh;
   margin: 5rem;
@@ -89,8 +89,12 @@ const UserST = styled.div`
   }
 
   @media screen and (max-width: 500px) {
-    width: 28rem;
+    width: 24rem;
     margin-top: 2rem;
+    tr {
+      width: 21rem;
+      margin: 0.5rem;
+    }
   }
 `;
 

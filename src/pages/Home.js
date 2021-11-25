@@ -66,13 +66,14 @@ const HomeStyl = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+
   @media screen and (max-width: 1000px) {
     flex-direction: column;
   }
   @media screen and (max-width: 500px) {
     flex-direction: column;
-    width: 500px;
-    margin-left: 9%;
+    margin: 0px;
   }
 `;
 

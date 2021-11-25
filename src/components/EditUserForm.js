@@ -60,6 +60,7 @@ const EditUser = styled(User)`
   color: white;
   @media screen and (max-width: 500px) {
     height: 28rem;
+    width: 24rem;
   }
 `;
 const TitleStyl = styled(Title)`

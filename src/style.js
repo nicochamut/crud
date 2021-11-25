@@ -9,7 +9,7 @@ export const User = styled.div`
   box-shadow: 8px 10px 20px #070607;
   width: 65vh;
   height: 60vh;
-  margin: 5rem;
+
   font-size: 2rem;
   color: white;
   form {
@@ -33,10 +33,9 @@ export const User = styled.div`
     color: white;
   }
   @media screen and (max-width: 500px) {
-    width: 28rem;
-    margin: 1rem;
     height: 28rem;
     margin-top: 1rem;
+    width: 24rem;
   }
 `;
 
